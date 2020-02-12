@@ -6,7 +6,7 @@ exec(" git add --all && git commit -am 'Update' && git pull origin master && git
         return;
     }
     if (stderr) {
-        console.log(`stderr: ${stderr}`);
+        console.log(`${stderr}`);
         return;
     }
     console.log(`stdout: ${stdout}`);
